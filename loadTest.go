@@ -8,8 +8,8 @@ import (
 )
 
 var mainUri = "LBADDRESS"
-var subPath = "/tct/user/"
-var patchStr = "?job=job&name=name&phone=phone"
+var subPath = "URIPATH"
+var patchStr = "PARAMETER"
 
 func curlExec(id int) {
 	path := mainUri + subPath + strconv.Itoa(id) + patchStr
